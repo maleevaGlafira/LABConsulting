@@ -1,0 +1,397 @@
+/*------------Styles apears is main js---------------------*/
+/*---------------------Preloader------------*/
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #c8cbdb;
+    z-index: 100500;
+}
+
+.cssload-tetrominos {
+	position: absolute;
+	left: 50%;
+	top:  50%;
+	transform: translate(-34px, -29px);
+		-o-transform: translate(-34px, -29px);
+		-ms-transform: translate(-34px, -29px);
+		-webkit-transform: translate(-34px, -29px);
+		-moz-transform: translate(-34px, -29px);
+}
+
+.cssload-tetromino {
+	width: 29px;
+	height: 34px;
+	position: absolute;
+	transition: all ease 0.115s;
+		-o-transition: all ease 0.115s;
+		-ms-transition: all ease 0.115s;
+		-webkit-transition: all ease 0.115s;
+		-moz-transition: all ease 0.115s;
+	background: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 684"%3E%3Cpath fill="%23081d42" d="M305.7 0L0 170.9v342.3L305.7 684 612 513.2V170.9L305.7 0z"/%3E%3Cpath fill="%23c8cbdb" d="M305.7 80.1l-233.6 131 233.6 131 234.2-131-234.2-131"/%3E%3C/svg%3E') no-repeat top center;
+}
+
+.cssload-box1 {
+	animation: cssload-tetromino1 0.595s ease-out infinite;
+		-o-animation: cssload-tetromino1 0.595s ease-out infinite;
+		-ms-animation: cssload-tetromino1 0.595s ease-out infinite;
+		-webkit-animation: cssload-tetromino1 0.595s ease-out infinite;
+		-moz-animation: cssload-tetromino1 0.595s ease-out infinite;
+}
+
+.cssload-box2 {
+	animation: cssload-tetromino2 0.595s ease-out infinite;
+		-o-animation: cssload-tetromino2 0.595s ease-out infinite;
+		-ms-animation: cssload-tetromino2 0.595s ease-out infinite;
+		-webkit-animation: cssload-tetromino2 0.595s ease-out infinite;
+		-moz-animation: cssload-tetromino2 0.595s ease-out infinite;
+}
+
+.cssload-box3 {
+	animation: cssload-tetromino3 0.595s ease-out infinite;
+		-o-animation: cssload-tetromino3 0.595s ease-out infinite;
+		-ms-animation: cssload-tetromino3 0.595s ease-out infinite;
+		-webkit-animation: cssload-tetromino3 0.595s ease-out infinite;
+		-moz-animation: cssload-tetromino3 0.595s ease-out infinite;
+	z-index: 2;
+}
+
+.cssload-box4 {
+	animation: cssload-tetromino4 0.595s ease-out infinite;
+		-o-animation: cssload-tetromino4 0.595s ease-out infinite;
+		-ms-animation: cssload-tetromino4 0.595s ease-out infinite;
+		-webkit-animation: cssload-tetromino4 0.595s ease-out infinite;
+		-moz-animation: cssload-tetromino4 0.595s ease-out infinite;
+}
+
+@keyframes cssload-tetromino1 {
+	0%, 40% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(14px, -8px);
+	}
+	60%, 100% {
+		transform: translate(29px, 0);
+	}
+}
+
+@-o-keyframes cssload-tetromino1 {
+	0%, 40% {
+		-o-transform: translate(0, 0);
+	}
+	50% {
+		-o-transform: translate(14px, -8px);
+	}
+	60%, 100% {
+		-o-transform: translate(29px, 0);
+	}
+}
+
+@-ms-keyframes cssload-tetromino1 {
+	0%, 40% {
+		-ms-transform: translate(0, 0);
+	}
+	50% {
+		-ms-transform: translate(14px, -8px);
+	}
+	60%, 100% {
+		-ms-transform: translate(29px, 0);
+	}
+}
+
+@-webkit-keyframes cssload-tetromino1 {
+	0%, 40% {
+		-webkit-transform: translate(0, 0);
+	}
+	50% {
+		-webkit-transform: translate(14px, -8px);
+	}
+	60%, 100% {
+		-webkit-transform: translate(29px, 0);
+	}
+}
+
+@-moz-keyframes cssload-tetromino1 {
+	0%, 40% {
+		-moz-transform: translate(0, 0);
+	}
+	50% {
+		-moz-transform: translate(14px, -8px);
+	}
+	60%, 100% {
+		-moz-transform: translate(29px, 0);
+	}
+}
+
+@keyframes cssload-tetromino2 {
+	0%, 20% {
+		transform: translate(29px, 0px);
+	}
+	40%, 100% {
+		transform: translate(43px, 8px);
+	}
+}
+
+@-o-keyframes cssload-tetromino2 {
+	0%, 20% {
+		-o-transform: translate(29px, 0px);
+	}
+	40%, 100% {
+		-o-transform: translate(43px, 8px);
+	}
+}
+
+@-ms-keyframes cssload-tetromino2 {
+	0%, 20% {
+		-ms-transform: translate(29px, 0px);
+	}
+	40%, 100% {
+		-ms-transform: translate(43px, 8px);
+	}
+}
+
+@-webkit-keyframes cssload-tetromino2 {
+	0%, 20% {
+		-webkit-transform: translate(29px, 0px);
+	}
+	40%, 100% {
+		-webkit-transform: translate(43px, 8px);
+	}
+}
+
+@-moz-keyframes cssload-tetromino2 {
+	0%, 20% {
+		-moz-transform: translate(29px, 0px);
+	}
+	40%, 100% {
+		-moz-transform: translate(43px, 8px);
+	}
+}
+
+@keyframes cssload-tetromino3 {
+	0% {
+		transform: translate(43px, 8px);
+	}
+	20%, 60% {
+		transform: translate(29px, 16px);
+	}
+	90%, 100% {
+		transform: translate(14px, 8px);
+	}
+}
+
+@-o-keyframes cssload-tetromino3 {
+	0% {
+		-o-transform: translate(43px, 8px);
+	}
+	20%, 60% {
+		-o-transform: translate(29px, 16px);
+	}
+	90%, 100% {
+		-o-transform: translate(14px, 8px);
+	}
+}
+
+@-ms-keyframes cssload-tetromino3 {
+	0% {
+		-ms-transform: translate(43px, 8px);
+	}
+	20%, 60% {
+		-ms-transform: translate(29px, 16px);
+	}
+	90%, 100% {
+		-ms-transform: translate(14px, 8px);
+	}
+}
+
+@-webkit-keyframes cssload-tetromino3 {
+	0% {
+		-webkit-transform: translate(43px, 8px);
+	}
+	20%, 60% {
+		-webkit-transform: translate(29px, 16px);
+	}
+	90%, 100% {
+		-webkit-transform: translate(14px, 8px);
+	}
+}
+
+@-moz-keyframes cssload-tetromino3 {
+	0% {
+		-moz-transform: translate(43px, 8px);
+	}
+	20%, 60% {
+		-moz-transform: translate(29px, 16px);
+	}
+	90%, 100% {
+		-moz-transform: translate(14px, 8px);
+	}
+}
+
+@keyframes cssload-tetromino4 {
+	0%, 60% {
+		transform: translate(14px, 8px);
+	}
+	90%, 100% {
+		transform: translate(0, 0);
+	}
+}
+
+@-o-keyframes cssload-tetromino4 {
+	0%, 60% {
+		-o-transform: translate(14px, 8px);
+	}
+	90%, 100% {
+		-o-transform: translate(0, 0);
+	}
+}
+
+@-ms-keyframes cssload-tetromino4 {
+	0%, 60% {
+		-ms-transform: translate(14px, 8px);
+	}
+	90%, 100% {
+		-ms-transform: translate(0, 0);
+	}
+}
+
+@-webkit-keyframes cssload-tetromino4 {
+	0%, 60% {
+		-webkit-transform: translate(14px, 8px);
+	}
+	90%, 100% {
+		-webkit-transform: translate(0, 0);
+	}
+}
+
+@-moz-keyframes cssload-tetromino4 {
+	0%, 60% {
+		-moz-transform: translate(14px, 8px);
+	}
+	90%, 100% {
+		-moz-transform: translate(0, 0);
+	}
+}
+
+/*-----------Open Menu Burger---------------*/
+.menu_open{
+	flex-direction: column;
+	margin-bottom: -6px;
+}
+
+.menu_open a{
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+
+/*------Modal Window-------------------------*/
+.arcticmodal-container_i{
+		width: 100%;
+}
+.arcticmodal-container_i2{
+		width: 100%;
+		padding-left: 1px;
+		padding-right: 1px;
+		background:rgba(19,23,49,.85);
+}
+#callModal{
+	width: calc(100% - 48px);
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: none;
+}
+
+.box-modal{
+	padding: 0;
+	border-radius: 5px;
+	max-width: 412px;
+}
+
+.call-form{
+	padding: 50px 51px 51px 51px;
+	width: 100%;
+	text-align: center;
+}
+
+.call-form__title{
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 11px;
+
+}
+
+.call-form__text{
+	letter-spacing: 0.02em;
+	line-height: 1.3;
+	margin-bottom: 27px;
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+}
+
+
+.call-form__input{
+	display: block;
+	width: 100%;	
+	border:none;
+	margin-bottom: 22px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #757888;
+	color: #404048;
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+}
+
+
+.call-form__input::placeholder{
+	color: #404047;
+}
+
+.call-form__input:hover::placeholder
+{
+	color: #000 ; 
+	opacity: 1;
+}
+
+.call-form__input:focus{
+	box-shadow: inset  0 -2px  0px rgba(19,23,49,1);
+}
+
+.call-form__btn{	
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	margin-top: 27px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	height: 50px;
+	font-size: 15px;
+}
+/*---------- Media Queries --------------------*/
+/* 320 - 400 px */
+@media screen and (max-width: 440px) {
+	.call-form__title{
+		font-size: 18px;
+	}
+	.call-form{
+		padding: 35px 35px 35px 35px;
+	}
+	.call-form__title{
+		font-size: 18px;
+	}
+	.call-form__btn{
+		padding-top: 4px;
+		font-size: 13px;		
+		height: 35px;
+	}
+}
+@media screen and (max-width: 360px) {
+
+	.call-form{
+		padding: 20px 20px 20px 20px;
+	}
+
+	.call-form__title{
+		font-size: 17px;
+	}
+}

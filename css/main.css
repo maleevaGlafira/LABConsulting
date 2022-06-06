@@ -1,0 +1,1861 @@
+ /*-- Museo Sans Cyrl Font -------*/
+@import url("museoSansCyr.css");
+
+/*-------------------- Specification ---------------------------------------------- */
+
+body {
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+	color: #404048;
+	padding: 0;
+	letter-spacing: 0.02em;
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;   
+    line-height: 1.2em;       
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {	
+	color: #081d42;
+	line-height: 1em;   
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+h1 {
+	font-size: 58px;	
+	text-align: left;
+}
+
+h1.small{
+	font-size: 37.5px;
+}
+
+h2 {
+	
+	font-size: 29.17px;		
+	text-align: left; 
+	letter-spacing: 0.02em;	
+}
+
+h3 {
+	font-size: 23px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+
+button{
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+.rotate45{
+	transform: rotate(90deg);
+}
+
+.container{
+	max-width: 1200px;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+.btn {
+	 display: -webkit-flex;
+	 display: -moz-flex;
+	 display: -ms-flex;
+	 display: -o-flex;
+	 display: flex;
+	 align-items: flex-start;
+	 width: 155px;
+	 height: 39px;
+	 border-radius: 0; 
+	 font-family: 'Museo Sans Cyrl 700', sans-serif;
+	 color: #fff;
+	 font-size: 13px;
+	 padding: 6px 18px;
+	 background: #1cb883;
+	 border-bottom: 4px solid #149d6f;
+	 letter-spacing: 0.001em;	 
+}
+
+.btn__icon{
+	display: block;
+	color: #46e6b0;
+	margin-right: 7px;
+	margin-top: 3px;
+	margin-left: -2px;
+}
+
+.btn__caption{
+	display: block;
+}
+
+.btn:hover {
+	box-shadow: 0 0 5px 1px rgba(119, 132, 115, 0.4);
+	color: #fff;	
+	background: #1f2531;
+}
+
+.btn:focus {
+	box-shadow: none;	
+}
+
+.btn:active{
+	border-bottom: transparent;
+	border-top:  4px solid #149d6f;
+}
+
+.burger{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.btn__burger{
+	color: #3f4b60;
+	font-size: 26px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+	
+.btn__burger:hover{
+	color: #1f2531;
+}
+
+.socials{	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+}
+
+.socials__icon{
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 4px 7px 6px 6px;
+	font-size: 16.67px;
+}
+
+.socials__icon:hover{
+	box-shadow: 0 0 2px 2px  rgba(58,67,86, 0.7);
+}
+
+/*--------------------------Page Index.html --------------------------------*/
+/*-------------------Header Section-------------*/
+.header{
+	border-top: 3px solid #58647a;
+}
+
+.header_grey{
+	 background-color: #fafafb;	
+}
+
+.main-header{
+	background:  #c5cae5 url("../img/header.jpeg") no-repeat left top / cover;
+	box-shadow: 0px -15px 0px rgba(255,255,255, 0.4) inset;
+	padding-bottom: 150px;	
+}
+/*-------Header Navigation------*/
+.header__navigation{		
+	box-shadow: 0 2px 0px 2px rgba(88, 100,122,0.08);
+	background-color: rgba(191, 194, 200, .41);
+}
+
+.logo{
+	display: block;
+	height: auto;	
+	width: auto;
+	margin-top: 16px;
+	margin-bottom: 9px;
+	width: 100%;
+	max-width: 292px;
+}	
+
+.header__menu{
+	width: 100%;
+	padding-left: 10px; 
+	margin-left: -4px;
+	margin-top: 0;	
+}
+
+.header__menu a{
+	color: #3f4b60;
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	font-size: 17px;
+	line-height: 1em;
+	display: block;
+	padding: 0.5em 0;
+	border: 2px solid  transparent;
+}
+
+.header__menu a:hover{	
+	border-bottom: 2px solid #3f4b60;
+}
+
+/*-------Header Offer------------*/
+.offer{
+	margin-top: 97px;
+	text-align: left;	
+}
+
+.offer__title{
+	margin-left: -4px;
+}
+
+.offer__text{
+	font-family: 'Museo Sans Cyrl 100', sans-serif;
+	font-size: 29px;
+	line-height: 1.23em;
+	width: 579px;
+	margin-bottom: 29px;
+	margin-top: 17px;
+}
+
+.offer__socials{
+	width: 166px;
+	height: 46px;
+	background-color: rgba(255,255,255,.81);
+	border-radius: 3px;
+	border: 3px solid rgba(255,255,255,.66);
+	justify-content: space-between;
+	align-items: center;
+	padding:  4px 11px 4px 19px;
+}
+
+.socials__icon{
+	border:2px solid #3d6ca8;
+	color: #3d6ca8;
+}
+
+.socials__icon_facebook{
+	color: #3d6ca8;
+} 
+
+.socials__icon_twitter{
+	border-color: #17c0ff;
+	color: #17c0ff;
+}
+
+.socials__icon_telegram{
+	border-color: #25a3d4;
+	color: #25a3d4;	
+}
+/*-------------------Trust Section -------------*/
+.trust{
+	padding-top: 55px;
+	background-color: #f1f1f3;
+	padding-bottom: 106px;
+	position: relative;
+}
+
+.trust__title{
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.trust__item{
+	text-align: center;
+}		
+
+.trust__icon{
+	display: block;
+	margin: 0 auto 21px;
+	width: 119px;
+	height: 119px;
+	padding-top: 26px;
+	background-color: #c8cbdb;
+	border-radius: 100%;
+}
+
+.trust__caption{
+	font-family: 'Museo Sans Cyrl 700';
+	font-size: 21px;
+	margin-bottom: 12px;		
+}
+
+.trust__text{
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 14px;
+	line-height: 1.19em;
+	letter-spacing: 0.02em;
+}
+
+.trust__btn{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	transform:translateY(22px) translateX(-50%) ;
+	width: 170px;
+	height: 51px;
+	font-size: 16px;
+	padding-top: 9px;
+}
+
+/*-----------------Features Section ------------*/
+.features{
+	padding-top: 99px;
+	padding-bottom: 81px;
+}
+
+.features__item{
+	text-align: center;
+}
+
+.features__letter{
+	width: 86px;
+	height: 86px;
+	text-align: center;
+	line-height: 86px;
+	vertical-align: middle;
+	font-size: 50.11px;
+	font-family: 'Museo Sans Cyrl 100';
+	color: #fff;
+	background-color: #102e62;
+	border-radius: 50%;
+	margin: 0 auto 7px;
+}
+
+.features__caption{
+	font-family: 'Museo Sans Cyrl 100';	
+	font-size: 24px;
+	color: #081d42;
+	margin-bottom: 12px;
+}
+
+.features__caption:first-letter{
+	color: #b81c31;
+}
+
+.features__text{
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 14px;
+	line-height: 1.17em;
+	letter-spacing: 0.02em;
+}
+/*-----------------Mission Section--------------*/
+.mission-news{	
+	padding-bottom: 43px;
+	color: #ffffff;
+	background-color: #58647a;	
+	background-image: url("../img/home/mission.png");
+	background-position: center top ;
+	background-repeat: no-repeat;
+	letter-spacing: 0;
+}	
+
+.invert_title{
+	color: #fff;
+	opacity: 0.4;
+	line-height: 1em;
+	padding-top: 40px;
+	padding-bottom: 13px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #fff;
+}
+
+.mission__column{
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+
+.mission__column__left{
+	width: 55.55%;	
+}
+
+.mission__column__right{
+ 	width: 44.44%; 	 
+}
+
+.mission__text{
+	color: #fff;	
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 15px;
+	line-height: 1.19em;	
+	padding-bottom: 19px;
+	letter-spacing: 0;
+}
+
+.mission__btns{	
+	margin-top: 22px;
+}
+
+.mission__btn{
+	
+	width: 174px;
+	height: 44px;
+	padding-top: 9px;
+	color: #fff;
+	border: 2px solid #fff;	
+	background-color: transparent;	
+	text-align: center;
+	font-family: 'Museo Sans Cyrl 700';	
+	font-size: 15.83px;
+	display: block;
+}
+
+.mission__btn:hover{
+	background-color: #fff;
+	color: #5e697d;
+}
+
+.mission__btn:active{
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.5);
+}
+
+.news__item{	
+	padding-bottom: 12px;
+	padding-top: 19px;	
+	border-bottom: 1px solid #6b768a;	
+}	
+
+.news__item:nth-child(2){
+	padding-top: 0px;	
+}
+
+.news__icon{
+	width: 57px;
+	height: 57px;
+	margin-right: 12px;
+	display: block;
+	opacity: 0.4;
+}
+
+.news__caption{
+	font-family: 'Museo Sans Cyrl 700';
+	font-size: 12.4px;
+	line-height: 1.17em;
+	padding: 0 10px 12px 0;
+	opacity: 1;	
+	color: #fff;
+	display: block;
+}
+
+.news__caption:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.news__date{
+	font-family:'Museo Sans Cyrl 100'; 
+	font-size: 11px;
+}
+/*-----------------Contents Section-------------*/
+/*-----Use in All pages---------------------	*/
+.contents{
+	background-color: #3a4456;
+	padding-top: 40px;	
+}
+
+.contents__title{
+	color: #caccd0;
+	padding-bottom: 9px;	
+}
+
+.contents__title  a{
+	color: #caccd0;
+}
+
+.contents__list{
+	margin-bottom: 45px;
+}
+
+.contents__item {
+	height: 21px;	
+}
+
+.contents__item a{
+	color: #a7aab0;
+	font-size: 14px;
+	font-family: 'Museo Sans Cyrl 300';	
+	letter-spacing: 0;
+}
+
+.contents__item a:hover,
+.contents__title a:hover{
+	text-decoration: underline;
+	color:#fff; 
+}
+/*----------Footer  Section --------------------*/
+/*-----Use in All pages---------------------	*/
+.footer{
+	background-color: #1f2531;
+	color:  #acafb3;
+	padding-top: 35px;
+	padding-bottom:32px;
+	font-size: 12px;
+	font-family: 'Museo Sans Cyrl 100';
+	border-bottom:18px solid #58647a;
+}
+
+.footer__logo {
+    margin-top: -35px;
+    padding-right:  21px;
+}
+
+.footer__text{
+	line-height: 1.2em;
+	letter-spacing: 0;
+	margin-bottom: 13px;
+	width: 200px;	
+}
+
+.footer__text_adres{
+	 width: 11em;
+}
+
+.footer__text span,
+.text-adres span{
+	display: block;
+}
+
+.footer__source{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 26px;
+	margin-top: 4px	
+	opacity: 0.63;
+	color: #fff;
+	padding-top: 3px;
+}
+
+.footer__source__bage{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align:center;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	margin-right: 11px;
+}
+	
+
+.footer__sorce__text{
+	line-height: 1.1em;	
+	margin-top:-2px;
+	letter-spacing: 0;
+}
+
+.footer__sorce__text_small{
+	font-size: 10.42px;
+}
+
+
+.footer__sorce__text_main{
+	font-size: 12.42px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.footer__credits{
+	font-size: 12.08px;
+	line-height: 1.1em;
+}
+
+.footer__credits span{
+	display: block;
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.footer__credits a{
+	display: block;
+	color: #9fa0a3;
+	text-decoration: underline;
+}
+
+.footer__credits a:hover{
+	color: #fff;
+}
+
+.footer__logo{
+	width: 100%;
+	height: auto;
+	max-width: 315px;
+}
+/*--------------------------Page About.html---------------------------------*/
+/*-------------------Header Section-------------*/
+/*------------use in all pges besides index-----*/
+.offer_custom__title{
+	font-size: 37.5px;
+	margin-bottom: 12px;
+	letter-spacing: 0;
+	margin-left: -3px;
+}
+
+.offer_custom{
+	/*padding-top: 68px;*/
+	padding-top: 66px;
+	/*padding-bottom: 66px;*/
+	height:208px;
+}	
+
+.breadcrumbs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 7px;
+}
+
+.breadcrumbs li {
+	display: block;
+	margin-right: 5px;		
+}
+
+.breadcrumbs li a{
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 15,62px;
+	text-decoration: underline;
+	color: #49556b;
+	position: relative;
+	display: block;
+	margin-right: 10px;
+	padding-right: 3px;
+	letter-spacing: 0.03em;
+}
+
+.breadcrumbs li:last-child{ 
+	margin:0;
+	padding-right:0
+}
+
+.breadcrumbs li:last-child a{
+	margin-right: 0;
+} 
+
+li a.breadcrumbs__item_current {
+	text-decoration: none;
+	color: #7e838d;
+}
+
+.breadcrumbs li a:hover{
+	color: #b81c31;
+}
+
+.breadcrumbs li a:after{
+	content: " →";
+	display: block;
+	position: absolute;
+	top:0;
+	left:100%;
+	font-size: 11px;
+}
+
+.breadcrumbs .breadcrumbs__item_current:after{
+	display: none;
+	content: "";
+}
+
+.offer_custom__menu{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex; 	
+	margin-top: 9px;
+	justify-content: space-around;	
+}
+
+.offer_custom__menu li  a{
+	display: block;	
+	
+	padding: 9px 13px 9px 15px;	
+	border: 2px solid transparent;
+	color: #a1a6af;
+	font-size: 15.83px;
+	font-family: 'Museo Sans Cyrl 700';	
+	/*margin-right: 9px;*/
+	border-radius: 3px;
+}
+
+.offer_custom__menu li:last-child a{
+	/*/padding-right: 0;*/
+}
+
+.offer_custom__menu li a:hover,
+.offer_custom__menu li.offer_custom__menu__item_active a:hover{
+	color: #b81c31;
+	
+	
+}
+
+.offer_custom__menu li a.offer_custom__menu__item_active{
+	border-color: #b81c31;
+	color: #b81c31;
+}
+
+.offer_custom__menu li a.offer_custom__menu__item_active {
+	color: #b81c31;
+}
+
+/*.offer_custom__menu li:last-child a{
+	margin-right: 0;
+}*/
+
+/*----- ------------Section Advantages --------*/
+.advantages{
+	padding-top: 50px;
+	padding-bottom: 55px;
+}	
+
+.advantages__title{	
+	margin-bottom: 33px; 
+}
+
+/*-------------------Section Advange-List-------*/
+
+.advantages-list__item{
+	padding-top: 34px;
+	/*padding-bottom: 35px;	*/
+}
+
+.advantages-list__item:first-child{
+	border-top: 2px solid #e5e6e8;;
+}
+
+.advantages-list__item:after{
+	content: " ";
+	display: block;
+	height: 2px;
+	background-color: #e5e6e8;
+	margin-top: 31px;
+	max-width: 960px;
+	width: 98%;
+}
+
+.advantages-list__icon{
+	display: block;	
+	width: 60px;
+	height: 60px;
+	padding: 14px 10px 15px 12px;
+	border-radius: 100%;
+	border:2px solid #102e62;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.advatages-list__title{
+	color: #081d42;
+	font-family:'Museo Sans Cyrl 700';
+	font-size:18px;
+	padding-bottom: 22px;
+	letter-spacing: 0.03em;
+	padding-bottom: 17px;
+
+}
+
+.advantages-list__text{
+	font-size: 14px;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
+}
+
+/*-------------------Section Gallery------------*/
+.gallery	{
+	padding-top: 51px;
+	padding-bottom: 70px;
+}
+
+.gallery__title{
+	margin-bottom: 42px;
+}
+
+.gallery__item{	
+	position: relative;
+}
+
+.gallery__img{
+	display: block;
+	width: 100%;
+	max-width: 445px;
+}
+
+.gallery__overlay{
+	width: 100%;
+	height: 100%;
+	max-width: 445px;
+	position: absolute;
+	background-color:rgba(58,68,86, 0.69);
+	border: 7px solid #9a97a7;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+	top:0;
+	cursor: pointer;
+}
+
+.gallery__overlay i {
+	font-size: 29px;
+	color: #fff;
+	
+	display: block;
+
+}
+
+.gallery__item:hover .gallery__overlay{
+	opacity: 1;
+}
+
+/*---------------------------Page Services ---------------------------------*/
+/*-------------------Section Offer--------------*/
+
+.offer_custom__menu__desc{
+	display: block;
+	font-size: 13px;
+	font-family:'Museo Sans Cyrl 300';
+	margin-top: -4px;
+	letter-spacing: 0;
+}
+
+/*------------------Section Ur-services---------*/
+.ur-services{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #fff;
+	background: #fff url("../img/services/auditt8.jpg") no-repeat center top / cover;
+}
+
+.ur_servises__img{
+	display: block;	
+	width: 205px;
+	height: 205px;
+	margin-top: 13px;
+	border-radius: 100%;
+	border: 7px solid rgba(255,255,255, 0.4) ;
+}
+
+.ur-services__title {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1em;
+    margin-bottom: 19px;
+    text-align: left;
+    margin-top: 29px;
+    letter-spacing: 0.014em;
+}
+
+.ur_services__text{
+    letter-spacing: 0.015em;
+    padding-right: 30px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;	
+}
+
+.ur-services__list{
+	padding: 16px 0 8px 28px;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #fff;
+}
+
+.ur-services__list li{
+	padding-bottom: 11px;
+}
+
+.ur-services__list li a{
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 0.025em;
+}
+
+.ur-services__list li a:before{
+	float: left;
+	display: block;
+	content: "→";
+	width: 20px;
+	font-size: 12.5px;
+	font-family: 'Arial', sans-serif;
+}
+
+.ur-services__list li a:hover{
+	text-decoration: underline;
+}
+
+/*------------------Section Secon-Category------*/
+
+.second-category{
+	padding-bottom: 21px;
+	margin-left: -3px;
+}
+
+.second-category__title{
+	color: #081d42;	
+	margin-top: 56px;
+	margin-bottom: 27px;	
+}
+
+.second-category__text{	
+	margin-bottom: 18px;
+}
+
+.consultation{
+	width: 61%;
+	border:2px solid #e3e4e6;
+	padding: 25px 10px 28px 30px;
+	background: transparent url(../img/services/call.png) no-repeat  right 18px bottom 16px;
+	border-radius: 3px;
+	margin-left: -2px;
+	margin-bottom: 44px;
+}
+
+.consultation__title{
+	letter-spacing: 0.02em;
+	color: #414449;
+	margin-bottom: 16px;
+}
+
+.consultation__btn{
+	display: block;
+	border:2px solid #b81c31;
+	color: #b81c31;
+	font-family: 'Museo Sans Cyrl 700';
+	font-size: 14px;
+	padding: 8px 20px 8px 19px;
+	margin-right: 17px;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.consultation__btn:hover{
+	background-color: #b81c31;
+	color: #fff;
+}
+
+
+.consultation__phone{
+	display: block;
+	font-family: 'Museo Sans Cyrl 700';
+	color: #585f6b;
+	letter-spacing: 0.02em;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.consultation__phone:hover{
+	color:#b81c31;	 
+}
+
+
+.consultation__text{
+	margin-top: 14px;
+	color:#888d95;
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	line-height: 1.2em;
+	width: 230px;
+}
+
+.categories__navigation{
+	height: 100%;
+	background: #fafafb;
+	padding-top: 51px;
+	padding-bottom: 47px;
+
+}
+
+.categories__navigation__title{
+	color: #58647a;
+	font-size: 17.92px;
+	margin-left: 24px;
+	
+	margin-bottom: 41px;
+	text-align: left;
+
+}
+
+.categories__navigation__list{
+	border-top: 1px solid #dfdfe8;	
+	margin-bottom: 57px;
+
+}
+
+.categories__navigation__list li{
+	
+	border-bottom: 1px solid #dfdfe8;
+}
+
+.categories__navigation__list a{
+	font-size: 15.42px;
+	color: #747487;
+	font-family: 'Museo Sans Cyrl 700';
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 11px;
+	padding-left: 53px;
+	padding-right: 75px;
+	line-height: 1.3em;
+	position: relative;
+	vertical-align: top;
+}
+
+.categories__navigation__list li:first-child  a{
+	padding-top: 15px;
+}
+
+.categories__navigation__list a:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top:14px;
+	left:26px;
+	height: 11px;
+	width: 11px;
+	background-color: #aeaeb9;
+	border-radius: 2px;
+
+}
+
+.categories__navigation__list li:first-child  a:before{
+	top:20px;
+}
+
+.categories__navigation__list a:hover{
+	background-color:#aeaeb9;
+	color:#dfdfe8;
+
+}
+
+.categories__navigation__list a:hover:before{
+		background-color: #747487;
+}
+
+.reviews__slider-wrap{
+	height: 362px;
+	padding-right: 38px;
+	padding-left: 37px;
+}
+
+.slider__img{
+	display: block;
+	margin: 0 auto 15px;
+	height: 140px;
+	width: 140px;
+	border-radius: 100%;
+	border: 5px solid #656e8d;
+}
+
+.slider__title{
+	color: #656e8d;
+	font-family: 'Museo Sans Cyrl 700';
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+
+.slider__text{
+	font-family: 'Museo Sans Cyrl 300';
+	text-align: center;
+	font-size: 13px;
+	color: #404048;
+	margin-bottom: 9px;
+	letter-spacing: 0.025em;
+}
+
+.slider__icon{
+	display: block;
+	margin:0 auto 17px;
+	text-align: center;
+
+}
+
+.slider__icon i{
+	font-size: 14px;
+	color:#2c60a0;
+}
+
+.slick-prev, .slick-next{
+	font-size: 25px;
+	color: #404048 !important;
+	top:70px;
+	transition: all 0.2s ease;
+	height: 26px;
+	width: 26px;
+	border-radius: 100%;
+}
+
+.slick-prev{
+	left:-16px;
+}
+.slick-next{
+	right:-16px;
+}
+
+.slick-prev:focus,
+.slick-next:focus{
+	color: #404048 !important;
+}
+
+
+.slick-prev:hover,
+.slick-next:hover{
+	color: #fafafb !important;
+	background-color:#aeaeb9 !important; 
+}
+
+.slick-prev:hover{
+	left:-21px;
+}
+
+
+.slick-next:hover{
+	right: -21px;
+}
+
+
+.slick-prev:hover i,
+.slick-next:hover i{
+	text-shadow : 0  0  14px rgba(44,96,160, 0.50);
+	
+}
+
+
+
+.slick-prev::before,
+.slick-next::before{
+	
+	display: none;
+
+}
+
+.slider .slick-dots li button::before{
+	width: 11px;
+	height: 11px;
+	background-color: #bdc5d6;
+	content: " ";
+	opacity: 1;
+}
+
+.slider .slick-dots li button[tabindex="0"]::before{
+	background-color: #8b9ab7;
+	opacity: 1;
+}
+
+/*---------------------------Page Contacts ---------------------------------*/
+/*-------------------Section Map-Contactsp--------------*/
+#map {
+    width: 100%;
+    height: 444px;
+}
+
+.position_absolute{
+	position: absolute;
+	top: 48px;
+	width: 100%;
+}
+
+.map-contacts{
+	position: relative;	
+}
+
+.map-contacts__contacts{		
+	width: 469px;
+	position: absolute; 
+	right: 17px;
+	padding: 20px 35px 31px 29px;
+	border-radius: 3px;
+	background-color: rgba(88,100,122 ,.75);
+	color: #fff;		
+}
+
+.map-contacts__contacts:before{
+	content: " ";
+	position: absolute;
+	top: 15px;
+	left:-43px;
+	border: 22px solid transparent;
+	border-right: 21px solid rgba(88,100,122 ,.75);
+	position: absolute;
+	border-right: 21px solid rgba(88,100,122 ,.75);
+}
+
+.map-contacts__title{
+	color: #fff;
+	font-size: 21px;
+	margin-bottom: 0;
+}
+
+.map-contacts__header{
+	border-bottom: 1px solid rgba(255,255,255,0.22);
+	margin-bottom: 47px;
+	padding-bottom: 20px;
+}
+
+.socials__icon.map-contacts__icon{
+	color: #fff;	
+	border: 2px solid #fafbfb;	
+	margin-left: 20px;
+}
+
+.map-contacts__icons .socials__icon:first-child{
+	margin-left: 0;
+}
+
+.maps__contacts__link:hover {
+	border-color: #fff;
+	box-shadow: 0 0 2px 2px rgba(255,255,255,0.40);	
+} 
+
+.map-contacts__item{
+	margin-bottom: 24px;
+}
+
+.map-contacts__item p{
+	position: relative;
+	padding-left: 29px;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 1.2em;
+}
+
+.map-contacts__phone{
+	margin-bottom: 6px;
+	padding-left: 29px;
+
+}
+
+.map-contacts__phone:last-child{
+	margin-bottom: 0;
+}
+
+.map-contacts__adres{
+	padding-left: 33px;	
+}
+
+.map-contacts__mail{
+	padding-left: 35px;
+}
+
+.map-contacts__item__icon{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.map-contacts__phone .map-contacts__item__icon{
+	top: 3px;
+	font-size: 14px;
+	left: 8px;
+}
+
+.map-contacts__adres .map-contacts__item__icon{
+	left: 8px;
+	top: 6px;
+	font-size: 13px;
+}
+
+.map-contacts__mail .map-contacts__item__icon{
+	left: 10px;
+	top: 1px;
+	font-size: 16px;
+}
+
+.map-contacts__text{
+	opacity: 0.75;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Museo Sans Cyrl 300';
+	line-height: 1.2;
+	padding-bottom: 16px;
+	margin-left: 5px;
+	margin-top: -2px;
+}
+
+/*-------------------------------- Media Queries ------------------------------------*/
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768 - 992 px */
+/*------------------- Media Query-----------------------------*/
+@media screen and (max-width: 991px) {
+	.margin-reset{
+		margin-left: -5px;
+	}
+	.container{
+		max-width: 760px;	
+	}
+	.position_absolute{
+		position: relative;
+	}
+	.header__burger{
+		margin-left:9px;
+	}
+	/*-----------Page Index---------------------------*/
+	/*------Section Header----------------*/
+	/*--------use in all  Pages----------*/
+	.header{
+		border-top: 3px solid #58647a;
+	}
+	.header_logo{
+		width: 96%;
+		height: auto;
+		margin-top: 19px;
+	}
+	.header__btn{
+		margin-left: -7px;
+	}
+	.header__navigation{
+		padding-bottom: 6px;
+		padding-top: 8px;
+	}
+	.offer{
+		margin-top: 99px;
+	}
+	/*------Trust Section----------------*/	
+	.trust{
+		padding-top: 54px;
+		padding-bottom: 60px;
+
+	}
+	.trust__item{
+		margin-bottom: 50px;
+	}
+	/*------Section Features Section-------------*/
+	.features{
+		padding-top: 83px;
+		padding-bottom: 33px;
+	}
+	.features__item{
+		padding-bottom: 42px;
+	}
+
+	/*------ Mission Section----------------*/
+	.mission-news{
+		background-image: none;
+	}
+	.invert__title{
+		padding-top: 44px;
+		margin-bottom: 21px;
+	}
+	.mission{
+    	padding-bottom: 10px;
+	}
+	.mission__column__left{
+		width: 50%;		
+	}
+	.mission__column__right{
+ 		width: 50%;  		 
+	}
+	.mission__btns {
+    	margin-top: 14px;
+	}
+	.news__item {
+	    padding-bottom: 13px;
+	    padding-top: 15px;
+	}
+	.news__text{
+		margin-top: 10px;
+	}
+	.news__caption{
+		padding-bottom: 5px;
+	}
+	/*------Section Contents---------------*/
+	/*------use all pages------------------*/
+	.contents{
+		margin-bottom: -9px;
+	}
+	.contents__list {
+    	margin-bottom: 57px;
+    }
+	.contents__title {
+    	padding-bottom: 8px;
+	}
+	/*------Section Footer---------------*/
+	.footer__source{
+		margin-left: -8px;
+		margin-top: 2px;
+	}
+	.footer__credits{
+		margin-left: -8px;
+	}
+	.footer__logo{
+		margin-top: 6px;
+		padding-right: 21px;
+	}
+	/*-----------Page About---------------------------*/
+	/*------Section Header----------------*/
+	/*------use  all pages pbeside index--*/
+	.offer_custom__title{
+		text-align: center;
+	}
+	.breadcrumbs{
+		justify-content: center;
+	}
+	.offer_custom {
+	    padding-top: 73px;        
+		height: 330px;
+	}
+	.offer_custom__menu{
+		justify-content: space-around;
+		margin-top: 43px;
+	}
+	.offer_custom__menu li a{
+		padding: 8px 19px 12px 15px;
+	}
+	.offer_custom__menu li:last-child a {
+    	padding-right: 19px;	
+	}	
+	/*-----Section Advantages---------*/
+	.advantages{
+		padding-bottom: 54px;
+		padding-top: 56px;
+	}
+	.advantages-list__item {
+    	padding-top: 35px;
+	}
+	.advantages-list__item::after{
+		margin-top: 36px;
+	}	
+	/*-----Section gallery*/
+	.gallery {
+ 	   padding-top: 49px;
+       padding-bottom: 60px;
+	}
+
+	/*--------------------Page Services--------*/	
+	/*------Section Header----------------*/
+	.servicers_offer_custom{
+		height: 327px;
+	}
+	.services_offer_custom__menu{		
+		margin-top: 45px;		
+	}
+	
+	/*---------Section Ur-services---------*/
+	.ur-services{
+		padding-bottom: 52px;
+	}
+	.ur-services__title{
+		margin-top: 43px;
+		margin-bottom: 18px;
+		margin-left: -4px;
+		max-width: 15em;
+	}
+	.ur_services__text{
+		padding-right: 0;
+		margin-left: -4px;
+	}
+
+	/*--------Section Categories----------*/	
+	.second-category__title{
+		margin-top: 56px;
+		margin-bottom: 28px;
+	}
+	.consultation{
+		width: 100%;
+		padding-top: 25px;
+		margin-bottom: 46px;	
+		margin-right: 5px;
+		background-position: right 23px bottom 10px;
+		margin-left: 1px;
+		padding-left: 28px;
+	}
+	.categories__navigation{
+		height: auto;
+	}
+	.categories__navigation__title{
+		margin-bottom: 44px;
+	}
+	.categories__navigation__list{
+		margin-bottom: 40px;
+	}
+	.categories__navigation__list__item{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.reviews__slider {
+    	height: 358px;
+	}
+	/*-------------- Page Contacts---------------------*/
+	#map{
+		height: 444px;
+	}
+
+	.position_absolute{
+		position: relative;
+		margin-top: 23px;
+		margin-bottom: 25px;
+		top:0;
+		right: 0;
+	}
+	.map-contacts__contacts{
+		position: relative;
+		width: 100%;
+		top:0;
+		right: 0;
+	}	
+	.map-contacts__contacts:before{
+		display: none;
+	}
+	
+	.map-contacts__header{
+		margin-bottom: 49px;
+	}
+}
+
+/* 576 - 768 px */
+/*------------------- Media Query -----------------------*/
+@media screen and (max-width: 768px) {
+		h1{
+		font-size: 45px;
+	}
+
+	.trust__title{
+		font-size: 25px;
+	}
+	.container{
+		max-width: 474px;
+	}
+	h3{
+		font-size: 20px;
+	}	
+	/*----- Page Index.html-------------------*/
+	/*---------Section header---------*/	
+	/*------use all  pges-----------*/
+	.main-header{
+		padding-bottom: 111px;
+	}
+	.header_logo {
+
+	    width: 98%;
+	}
+	.header__navigation {
+	 	padding-bottom: 13px;
+		padding-top: 13px;
+	}
+	.header__btn{
+		margin-top:3px;
+	}
+	.header__burger{
+		margin-left: -9px;	
+		margin-top: 4px;
+	}
+	.offer {
+    	margin-top: 111px;
+	}
+	.offer__title{
+		margin-bottom: 20px;
+	}
+	.offer__text{
+		font-size: 25px;
+		width:100%;
+		max-width: 400px;
+		margin-bottom: 34px
+	}	
+	/*---------Section Trust---------*/
+	.trust {
+    	padding-top: 57px;
+		padding-bottom: 63px;
+	}
+	.trust__item {
+ 	   margin-bottom: 31px;
+	}
+	/*----Secrion Features----------*/
+	.features {
+    	padding-top: 63px;
+    	padding-bottom: 20px;
+	}
+	.features__item {
+ 	   padding-bottom: 46px;
+	}
+	/*-----Section Mission---------*/
+	.mission {	    
+	    padding-bottom: 0;
+	}
+	.invert_title{
+		padding-top: 42px;
+	}
+	.mission__text {
+	    margin-bottom: 1px;
+	    margin-left: 3px;
+	}
+	.mission__column{
+		width: 100%;
+	}
+	.mission__column__left{
+		margin-bottom: 39px;
+	}
+	.mission__column__right{
+		margin-bottom: 0;
+	}
+	.mission__btns {
+ 		margin-top: 18px;
+	}
+	.news{
+		padding-bottom: 4px;
+	}
+	.news__title{
+		font-size: 23px;
+		padding-top: 12px;
+		margin-bottom: 23px;
+	}
+	.news__caption{
+		padding-right: 0;
+	}
+	/*-----Section Contents--------*/
+	/*-----use all pages-----------*/
+	.contents {
+    	margin-bottom: 0px;
+    	padding-bottom: 8px;
+	}
+	.contents__title{
+		text-align:  center;
+	}
+	.contents__list {
+ 	   margin-bottom: 38px;
+	}
+
+	.footer{
+		padding-bottom: 42px;
+	}
+	/*-----Section Footer--------*/
+	.footer__logo {
+ 	   width: 198px;
+ 	   padding-right: 0;
+ 	   margin-bottom: 23px; 
+ 	   min-width: 205px;	   
+	}
+	.footer__text{
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;		
+		margin-bottom: 28px;
+	}
+	.margin-reset {
+    	margin-top: 0px;
+	}	
+	.footer__source{
+		margin-bottom: 29px;
+		justify-content: center;
+		margin-left: 0;
+	}
+	.footer__credits {
+		margin-left: 0;
+    	margin-bottom: 46px;
+    	text-align: center;
+
+	}
+	/*-----------Page Index---------------------------*/
+	/*------Section Contents----------------*/		
+	.contents__list {
+ 	   margin-bottom: 38px;
+	}
+	.contents__item {
+		text-align:  center;	
+	}	
+	/*-----------Page About---------------------------*/
+	/*------Section Header----------------*/
+	.offer_custom{		
+		height: auto;
+		padding-bottom: 75px;			
+	}
+	.offer_custom__menu{		
+		flex-direction: column;
+		align-items: center;
+		margin-top: 54px;
+	}
+	.offer_custom__menu li {
+	    padding: 0px 17px 0px 24px;
+	    margin-bottom: 8px;
+	}
+	.offer_custom__menu li a{
+		padding: 9px 12px 10px 13px;
+	}
+	/*------Section  Advantages-----*/
+	.advantages {
+	    padding-top: 47px;
+	    padding-bottom: 16px;
+	}
+	.advantages__text{
+		margin-bottom: 23px;
+	}
+	.advantages-list__item {
+	    padding-top: 41px;	    
+	}
+	.advantages-list__icon{
+		margin-bottom: 33px;
+	}
+	.advantages-list__text{
+		padding-right: 0;
+	}
+	.advantages-list__item::after {
+	    margin-top: 34	px;
+	}
+	.advantages-list__item:nth-child(3) .advatages-list__title{
+		padding-bottom: 21px;	
+	} 
+	/*----------Section Gallery-----*/
+	.gallery {
+	    padding-top: 58px;
+	    padding-bottom: 15px;
+	}
+
+	.gallery__item {	    
+	    margin-bottom: 25px;
+	   display: block;
+	}
+	/*--------------------Page Services--------*/	
+	/*---------Section header---------*/
+	.servicers_offer_custom{
+		height: auto;
+		padding-bottom: 61px;		
+	}
+	.services_offer_custom__menu { 
+	    margin-top: 33px;	    
+	}
+	.services_offer_custom__menu li{
+		margin-bottom: 0;
+
+	}
+	.services_offer_custom__menu li  a{
+		text-align: center;
+		padding: 10px 19px 12px 18px;
+		margin-bottom: 10px;	
+	}
+	/*---------Section Ur-services---------*/
+	.ur-services__title{
+		text-align: center;
+		margin: 33px auto 22px;
+	}
+	.ur_services__text{
+		text-align: center;
+	}
+	/*---------Section Categories-----------*/
+	.second-category__title {
+	    margin-top: 53px;
+	    margin-bottom: 19px;
+	}
+	.consultation {
+	    background-image: none;
+	    padding-bottom: 28px;
+	    padding-top: 24px;
+	    margin-bottom: 40px;
+	}
+	.categories__navigation__list a{
+		padding-right: 0;
+	}
+	.categories__navigation__list{
+			margin-bottom: 37px;
+	}
+	.reviews__slider {
+	    height: 356px;
+	}  
+
+	.position_absolute {    
+    	margin-top: 14px;
+    	margin-bottom: 15px;
+    
+	}
+
+/* 320 - 400 px */
+@media screen and (max-width: 400px) {
+/*-----------Page Insex---------------------------*/
+/*------Section Header----------------*/
+
+   .header__btn{
+   	 	font-size: 10px;
+   	 	width: 100%;
+   	 	padding-right: 0;
+   	 	padding-left: 0;
+   	 	justify-content: center;
+   	 	padding-top: 5px;
+   	 	height: 30px;
+   	 	margin-top: 6px;
+
+   }
+
+   .btn__burger{
+		font-size: 22px;
+   }
+
+   .offer_custom__menu__desc{
+   	line-height: 1.1em;
+   	margin-top: 3px;
+   }
+/*-----------Page Services---------------------------*/
+/*------Section ur-service---------------*/
+	.consultation{		
+		padding-right:15px ;
+	}
+	.consultation__title{
+		font-size: 14px;
+	}
+	.consultation__btn{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 13px;
+		
+	}
+	.consultation__phone{
+		font-size: 13px;
+	}
+
+}
+
+
+/* 320 - 400 px */
+@media screen and (max-width: 360px) {
+	.consultation{
+		
+		padding-right:8px ;
+		padding-left: 8px;
+	}
+	.consultation__btn{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 11px;
+		
+	}
+	.consultation__phone{
+		font-size: 11px;
+	}
+}
